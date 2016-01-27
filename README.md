@@ -1,6 +1,6 @@
 # Internet
 
-**TODO: Add description**
+**Run this program when you don't have internet. It will then slack you when the internet is working again.**
 
 ## Installation
 
@@ -17,4 +17,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:internet]]
         end
-
