@@ -1,4 +1,4 @@
-# Internet
+# Internet Test
 
 **Run this program when you don't have internet. It will then slack you when the internet is working again.**
 
