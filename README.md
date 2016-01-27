@@ -1,6 +1,12 @@
 # Internet Test
 
-**Run this program when you don't have internet. It will then slack you when the internet is working again.**
+**Run this program when you don't have internet. It will then slack you when the internet is working again. You will have to make a file called dev_secret.exs in the config directory. This file should have a Slack Webhook url. What are Webhooks? https://slack.com/apps/A0F7XDUAZ-incoming-webhooks**
+This is what it should look like:
+'''
+use Mix.Config
+config :internet, :slack, url: "https://hooks.slack.com/services/123456789/123456789/123456789"
+
+'''
 
 ## Installation
 
